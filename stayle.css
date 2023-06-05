@@ -3,11 +3,37 @@
     padding:10;
 }
 header{
-    background-color: blueviolet;
+    background-color: #383D58;
+    color: white;
+    display:flex;
+    justify-content: space-around;
 }
+
 .escola-imagem{
     width:25%;
-    }
-    .escola {
+}
+
+.escola {
     background-image: linear-gradient();
-    }
+}
+
+.item-lista{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+}
+.escola {
+    background-image:  linear-gradient(#383d38, #00C0EB);
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:24px 0;
+}
+.escola-conteudo{
+    width:35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
